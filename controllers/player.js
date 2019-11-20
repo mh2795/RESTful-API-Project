@@ -7,6 +7,12 @@ module.exports = {
         res.json(player)
       })
   },
+  findById: (req, res) => { 
+    Player.findById({ _id: req.params.id })
+      .then(player => {
+        res.json(player)
+      })
+  },
   showTeam: (req, res) => {
     Player.find({teamId: req.params.teamId})
       .then(player => {
