@@ -3,7 +3,7 @@ const router = express()
 const playerController = require('../controllers/player')
 
 router.get('/', playerController.index)
-router.get('/:_id', playerController.findById)
+router.get('/:Id', playerController.findById)
 router.get('/team/:teamId', playerController.showTeam)
 router.get('/:lastName', playerController.showLastName)
 router.post('/', playerController.create)
