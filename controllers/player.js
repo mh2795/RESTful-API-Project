@@ -8,7 +8,7 @@ module.exports = {
       })
   },
   findById: (req, res) => { 
-    Player.findById({ _id: req.params.id })
+    Player.findById({ _id: req.params._id })
       .then(player => {
         res.json(player)
       })
