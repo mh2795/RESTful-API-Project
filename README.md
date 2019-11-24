@@ -13,9 +13,8 @@ To run this app locally:
 
 ## Snapshot
 
-![Home](./src/images/Home.png)
-![Create-Player](./src/images/Create.png)
-![Edit-Player](./src/images/Edit.png)
+![Heroku](./images/HerokuDeployment.png)
+![MongoDB Atlas](./images/MongoDBAtlas.png)
 
 ## Technologies Used
 
