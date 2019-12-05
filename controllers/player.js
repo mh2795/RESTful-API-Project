@@ -19,12 +19,6 @@ module.exports = {
         res.json(player)
       })
   },
-  showLastName: (req, res) => {
-    Player.find({lastName: req.params.lastName})
-      .then(player => {
-        res.json(player)
-      })
-  },
   create: (req, res) => {
     Player.create(req.body)
       .then(player => {
